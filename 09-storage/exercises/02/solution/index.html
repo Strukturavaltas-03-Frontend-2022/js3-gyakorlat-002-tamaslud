@@ -22,8 +22,8 @@
         document.cookie = `${key}=${value}; expires=${new Date() + 2}`
       });
 
-      cookieHandler.getAll()
-      cookieHandler.flush()
+      console.log(cookieHandler.getAll())
+      // cookieHandler.flush()
     </script>
   </body>
 
